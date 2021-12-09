@@ -1,0 +1,27 @@
+.background-c {
+    background-image: url('../../img/c-login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Student List */
+.btn-c {
+    padding: 5px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* */
+.cell-temp{
+    color: #000;
+    font-weight: normal;
+    /* font-size: 2rem; */
+    margin: 0;
+    padding: 0;
+}

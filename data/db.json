@@ -1,0 +1,631 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Robert",
+      "last_name": "Schwartz",
+      "email": "rob23@gmail.com"
+    },
+    {
+      "id": 2,
+      "first_name": "Lucy",
+      "last_name": "Ballmer",
+      "email": "lucyb56@gmail.com"
+    },
+    {
+      "id": 3,
+      "first_name": "Anna",
+      "last_name": "Smith",
+      "email": "annasmith23@gmail.com"
+    },
+    {
+      "id": 4,
+      "first_name": "Robert",
+      "last_name": "Brown",
+      "email": "bobbrown432@yahoo.com"
+    },
+    {
+      "id": 5,
+      "first_name": "Roger",
+      "last_name": "Bacon",
+      "email": "rogerbacon12@yahoo.com"
+    },
+    {
+      "id": 6,
+      "first_name": "Fred",
+      "last_name": "Blair",
+      "email": "freddyb34@gmail.com"
+    }
+  ],
+  "admin": [
+    {
+      "name": "Spandan patel",
+      "email": "spandan@gmail.com",
+      "mobile": "9898256741",
+      "password": "spandan@1234",
+      "description": "Hi, I am spandan!!! Nice to meet you.",
+      "id": 1
+    },
+    {
+      "name": "Pratim Patel",
+      "email": "pratim@gmail.com",
+      "mobile": "9897145621",
+      "password": "pratim@1234",
+      "description": "Nice to meet you!!!",
+      "id": 2
+    },
+    {
+      "name": "Ojash Chaudhari",
+      "email": "ojas@gmail.com",
+      "mobile": "7875656254",
+      "password": "ojas@1234",
+      "description": "Show must go on!!!",
+      "id": 3
+    }
+  ],
+  "clerk": [
+    {
+      "name": "Dhrutik Patel",
+      "email": "dhrutik@patel.com",
+      "mobile": "7584365196",
+      "password": "dhrutik@1234",
+      "description": "Too busy!!!",
+      "id": 1
+    }
+  ],
+  "student": [
+    {
+      "name": "Nirbhay Rathod",
+      "email": "nirbhay@gmail.com",
+      "mobile": "8788526245",
+      "std": "12",
+      "rollno": 1,
+      "tenthpercentage": "87",
+      "extra": "Standard Comedy",
+      "password": "nirbhay1234",
+      "description": "Biology is my favourite subject.",
+      "id": 1,
+      "physics": "71",
+      "chemistry": "67",
+      "maths": "88",
+      "computer": "79",
+      "biology": "83"
+    },
+    {
+      "name": "Shubham Gandhi",
+      "email": "shubham@gnadhi.com",
+      "mobile": "9245856345",
+      "std": "11",
+      "rollno": 2,
+      "tenthpercentage": "97",
+      "extra": "Cultural Activities",
+      "password": "shubham1234",
+      "description": "I like to so social activities.",
+      "id": 2,
+      "physics": "67",
+      "chemistry": "51",
+      "maths": "55",
+      "computer": "75",
+      "biology": "47"
+    },
+    {
+      "name": "Yash Patel",
+      "email": "yash@patel.com",
+      "mobile": "8645123795",
+      "std": "11",
+      "rollno": 3,
+      "tenthpercentage": "87",
+      "extra": "Standard Comedy",
+      "password": "nirbhay1234",
+      "description": "Biology is my favourite subject.",
+      "id": 3,
+      "physics": "67",
+      "chemistry": "61",
+      "maths": "75",
+      "computer": "69",
+      "biology": "59"
+    },
+    {
+      "name": "Smit Gandhi",
+      "email": "Smit@gnadhi.com",
+      "mobile": "9854231676",
+      "std": "11",
+      "rollno": 4,
+      "tenthpercentage": "97",
+      "extra": "Cultural Activities",
+      "password": "shubham1234",
+      "description": "I like to so social activities.",
+      "id": 4,
+      "physics": "57",
+      "chemistry": "69",
+      "maths": "65",
+      "computer": "71",
+      "biology": "53"
+    },
+    {
+      "name": "Nirbhay ",
+      "email": "nirbhay@gmail.com",
+      "mobile": "8788526245",
+      "std": "12",
+      "rollno": 5,
+      "id": 5
+    },
+    {
+      "name": "Shubham",
+      "email": "shubham@gnadhi.com",
+      "mobile": "9245856345",
+      "std": "11",
+      "rollno": 6,
+      "id": 6
+    }
+  ],
+  "teacher": [
+    {
+      "name": "Ruchit Thanki",
+      "email": "ruchit@thanki.com",
+      "mobile": "8584828680",
+      "subject": "computer",
+      "degree": "B.E.",
+      "extra": "Public Speaking",
+      "experience": "6 Years",
+      "password": "ruchit1234",
+      "description": "Jalsa Karo!!!",
+      "id": 1
+    }
+  ],
+  "notice": [
+    {
+      "news": "Admission Process Close",
+      "id": 1
+    },
+    {
+      "news": "Exams in January",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "news": "Results in End of the January"
+    },
+    {
+      "id": 4,
+      "news": "Everyone have to wear mask compulsory"
+    },
+    {
+      "id": 5,
+      "news": "Seminar in this week"
+    },
+    {
+      "id": 6,
+      "news": "Collect your marksheets"
+    },
+    {
+      "id": 7,
+      "news": "Next year admission starts from january"
+    },
+    {
+      "id": 8,
+      "news": "Picnic in February"
+    },
+    {
+      "id": 9,
+      "news": "Vacation after Annual examination"
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "location": "https://wallpaperaccess.com/full/1172303.jpg",
+      "title": "Notebook",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "update": "Last Updated 9/11/2021 ago"
+    },
+    {
+      "id": 2,
+      "location": "https://wallpaperaccess.com/full/1172568.jpg",
+      "title": "School gallery",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "update": "Last Updated 5/11/2021 ago"
+    },
+    {
+      "id": 3,
+      "location": "https://wallpaperaccess.com/full/1850659.jpg",
+      "title": "School gallery",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "update": "Last Updated 6/11/2021 ago"
+    },
+    {
+      "id": 4,
+      "location": "https://wallpaperaccess.com/full/1850685.jpg",
+      "title": "School gallery",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "update": "Last Updated 7/11/2021 ago"
+    },
+    {
+      "id": 5,
+      "location": "https://wallpaperaccess.com/full/251833.jpg",
+      "title": "School gallery",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "update": "Last Updated 8/11/2021 ago"
+    },
+    {
+      "location": "https://wallpaperaccess.com/full/1850760.jpg",
+      "title": "School",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "update": "Last Updated 9/11/2021 ago",
+      "id": 6
+    }
+  ],
+  "11syllabusphysics": [
+    {
+      "id": 1,
+      "topic": "Newton's laws of motion"
+    },
+    {
+      "topic": "Thermodynamics",
+      "id": 2
+    }
+  ],
+  "11syllabuschemistry": [
+    {
+      "id": 1,
+      "topic": "Atomic Structure"
+    },
+    {
+      "topic": "Chemical Bonding",
+      "id": 2
+    }
+  ],
+  "11syllabusmaths": [
+    {
+      "id": 1,
+      "topic": "Integretion & Differentiation"
+    },
+    {
+      "id": 2,
+      "topic": "Geometry"
+    }
+  ],
+  "11syllabusbiology": [
+    {
+      "id": 1,
+      "topic": "Diffusion and osmosis"
+    },
+    {
+      "id": 2,
+      "topic": "Immunology"
+    }
+  ],
+  "11syllabuscomputer": [
+    {
+      "id": 1,
+      "topic": "HTML, CSS"
+    },
+    {
+      "id": 2,
+      "topic": "Cloud Computing"
+    }
+  ],
+  "12syllabusphysics": [
+    {
+      "id": 1,
+      "topic": "Friction"
+    },
+    {
+      "topic": "Fluid Mechanics",
+      "id": 2
+    }
+  ],
+  "12syllabuschemistry": [
+    {
+      "id": 1,
+      "topic": "Electrochemistry"
+    },
+    {
+      "topic": "Thermochemistry",
+      "id": 2
+    }
+  ],
+  "12syllabusmaths": [
+    {
+      "id": 1,
+      "topic": "Trigonometry"
+    },
+    {
+      "id": 2,
+      "topic": "Stattistics"
+    }
+  ],
+  "12syllabusbiology": [
+    {
+      "id": 1,
+      "topic": "Sense Organs"
+    },
+    {
+      "id": 2,
+      "topic": "Human Digestive System"
+    }
+  ],
+  "12syllabuscomputer": [
+    {
+      "id": 1,
+      "topic": "Ubuntu/Linux"
+    },
+    {
+      "id": 2,
+      "topic": "Java"
+    }
+  ],
+  "t-timetable": [
+    {
+      "id": 1,
+      "day": "TIME",
+      "lec1": "08:00am to 08:50am",
+      "lec2": "09:00am to 09:50am",
+      "lec3": "10:00am to 10:50am",
+      "lec4": "11:05am to 11:55am",
+      "lec5": "12:00pm to 12:55pm",
+      "lec6": "01:30pm to 02:20pm",
+      "lec7": "02:30pm to 03:20pm",
+      "lec8": "03:30pm to 04:20pm"
+    },
+    {
+      "id": 2,
+      "day": "Monday",
+      "lec1": "Physics-11",
+      "lec2": "Physics-12",
+      "lec3": "Physics-11",
+      "lec4": "Physics-12",
+      "lec5": "Physics-12",
+      "lec6": "Physics-11",
+      "lec7": "-",
+      "lec8": "-"
+    },
+    {
+      "id": 3,
+      "day": "Tuesday",
+      "lec1": "-",
+      "lec2": "Physics-12",
+      "lec3": "Physics-11",
+      "lec4": "Physics-12",
+      "lec5": "Physics-12",
+      "lec6": "Physics-11",
+      "lec7": "Physics-11",
+      "lec8": "-"
+    },
+    {
+      "id": 4,
+      "day": "Wednesday",
+      "lec1": "-",
+      "lec2": "-",
+      "lec3": "Physics-11",
+      "lec4": "Physics-12",
+      "lec5": "Physics-12",
+      "lec6": "Physics-11",
+      "lec7": "Physics-11",
+      "lec8": "Physics-12"
+    },
+    {
+      "id": 5,
+      "day": "Thursday",
+      "lec1": "-",
+      "lec2": "-",
+      "lec3": "Physics-11",
+      "lec4": "Physics-12",
+      "lec5": "Physics-12",
+      "lec6": "Physics-11",
+      "lec7": "Physics-11",
+      "lec8": "Physics-12"
+    },
+    {
+      "id": 6,
+      "day": "Friday",
+      "lec1": "-",
+      "lec2": "Physics-12",
+      "lec3": "Physics-11",
+      "lec4": "Physics-12",
+      "lec5": "Physics-12",
+      "lec6": "Physics-11",
+      "lec7": "Physics-11",
+      "lec8": "-"
+    },
+    {
+      "id": 7,
+      "day": "Saturday",
+      "lec1": "Physics-11",
+      "lec2": "Physics-12",
+      "lec3": "Physics-11",
+      "lec4": "Physics-12",
+      "lec5": "Physics-12",
+      "lec6": "-",
+      "lec7": "-",
+      "lec8": "-"
+    }
+  ],
+  "11-timetable": [
+    {
+      "id": 1,
+      "day": "TIME",
+      "lec1": "08:00am to 08:50am",
+      "lec2": "09:00am to 09:50am",
+      "lec3": "10:00am to 10:50am",
+      "lec4": "11:05am to 11:55am",
+      "lec5": "12:00pm to 12:55pm",
+      "lec6": "01:30pm to 02:20pm",
+      "lec7": "02:30pm to 03:20pm",
+      "lec8": "03:30pm to 04:20pm"
+    },
+    {
+      "id": 2,
+      "day": "Monday",
+      "lec1": "Physics",
+      "lec2": "Maths",
+      "lec3": "Chemistry",
+      "lec4": "Maths",
+      "lec5": "Chemistry",
+      "lec6": "Physics",
+      "lec7": "Biology",
+      "lec8": "Computer"
+    },
+    {
+      "id": 3,
+      "day": "Tuesday",
+      "lec1": "Physics",
+      "lec2": "Maths",
+      "lec3": "Chemistry",
+      "lec4": "Maths",
+      "lec5": "Chemistry",
+      "lec6": "Physics",
+      "lec7": "Biology",
+      "lec8": "Computer"
+    },
+    {
+      "id": 4,
+      "day": "Wednesday",
+      "lec1": "Physics",
+      "lec2": "Maths",
+      "lec3": "Chemistry",
+      "lec4": "Maths",
+      "lec5": "Chemistry",
+      "lec6": "Physics",
+      "lec7": "Biology",
+      "lec8": "Computer"
+    },
+    {
+      "id": 5,
+      "day": "Thursday",
+      "lec1": "Physics",
+      "lec2": "Maths",
+      "lec3": "Chemistry",
+      "lec4": "Maths",
+      "lec5": "Chemistry",
+      "lec6": "Physics",
+      "lec7": "Biology",
+      "lec8": "Computer"
+    },
+    {
+      "id": 6,
+      "day": "Friday",
+      "lec1": "Physics",
+      "lec2": "Maths",
+      "lec3": "Chemistry",
+      "lec4": "Maths",
+      "lec5": "Chemistry",
+      "lec6": "Physics",
+      "lec7": "Biology",
+      "lec8": "Computer"
+    },
+    {
+      "id": 7,
+      "day": "Saturday",
+      "lec1": "Physics",
+      "lec2": "Maths",
+      "lec3": "Chemistry",
+      "lec4": "Maths",
+      "lec5": "Chemistry",
+      "lec6": "Physics",
+      "lec7": "Biology",
+      "lec8": "Computer"
+    }
+  ],
+  "12-timetable": [
+    {
+      "id": 1,
+      "day": "TIME",
+      "lec1": "08:00am to 08:50am",
+      "lec2": "09:00am to 09:50am",
+      "lec3": "10:00am to 10:50am",
+      "lec4": "11:05am to 11:55am",
+      "lec5": "12:00pm to 12:55pm",
+      "lec6": "01:30pm to 02:20pm",
+      "lec7": "02:30pm to 03:20pm",
+      "lec8": "03:30pm to 04:20pm"
+    },
+    {
+      "id": 2,
+      "day": "Monday",
+      "lec1": "Chemistry",
+      "lec2": "Computer",
+      "lec3": "Physics",
+      "lec4": "Computer",
+      "lec5": "Physics",
+      "lec6": "Chemistry",
+      "lec7": "Biology",
+      "lec8": "Maths"
+    },
+    {
+      "id": 3,
+      "day": "Tuesday",
+      "lec1": "Chemistry",
+      "lec2": "Computer",
+      "lec3": "Physics",
+      "lec4": "Computer",
+      "lec5": "Physics",
+      "lec6": "Chemistry",
+      "lec7": "Biology",
+      "lec8": "Maths"
+    },
+    {
+      "id": 4,
+      "day": "Wednesday",
+      "lec1": "Chemistry",
+      "lec2": "Computer",
+      "lec3": "Physics",
+      "lec4": "Computer",
+      "lec5": "Physics",
+      "lec6": "Chemistry",
+      "lec7": "Biology",
+      "lec8": "Maths"
+    },
+    {
+      "id": 5,
+      "day": "Thursday",
+      "lec1": "Chemistry",
+      "lec2": "Computer",
+      "lec3": "Physics",
+      "lec4": "Computer",
+      "lec5": "Physics",
+      "lec6": "Chemistry",
+      "lec7": "Biology",
+      "lec8": "Maths"
+    },
+    {
+      "id": 6,
+      "day": "Friday",
+      "lec1": "Chemistry",
+      "lec2": "Computer",
+      "lec3": "Physics",
+      "lec4": "Computer",
+      "lec5": "Physics",
+      "lec6": "Chemistry",
+      "lec7": "Biology",
+      "lec8": "Maths"
+    },
+    {
+      "id": 7,
+      "day": "Saturday",
+      "lec1": "Chemistry",
+      "lec2": "Computer",
+      "lec3": "Physics",
+      "lec4": "Computer",
+      "lec5": "Physics",
+      "lec6": "Chemistry",
+      "lec7": "Biology",
+      "lec8": "Maths"
+    }
+  ],
+  "temp": []
+}

@@ -1,0 +1,29 @@
+.background-t {
+  background-image: url('../../img/t-login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.container-t {
+  background-color: #9eb5ff;
+}
+
+/* TIMETABLE */
+.cell {
+  background-color: transparent;
+  padding: 18px 50px;
+  border: 0;
+  border-bottom: 5px #fff   solid;
+  color: #060b26;
+  font-size: 1.1rem;
+}
+
+.lst {
+  justify-content: center;
+}

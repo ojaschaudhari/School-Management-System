@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Playfair+Display+SC:ital,wght@1,900&family=Volkhov:ital,wght@1,700&display=swap');
+
+.n-body {
+    background-color: #060b26;
+    padding: 10px 0;
+    height: 100vh;
+}
+
+.n-title {
+    color: #f5e6cc;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.myli {
+    text-align: left;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 25px 5px;
+}
+
+.myli:hover {
+    color: #af1221;
+}

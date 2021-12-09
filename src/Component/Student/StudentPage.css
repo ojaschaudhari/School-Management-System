@@ -1,0 +1,26 @@
+.background-s {
+    background-image: url('../../img/s-login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+/*SYLLABUS*/
+.s-cell{
+    background-color: transparent;
+    border: 0;
+    margin: 0 0 0 4em;
+    font-size: 1.5rem;
+}
+
+.s-h1 {
+    text-decoration: 3px underline;
+}
+
+.s-label {
+    color: #060b26;
+}

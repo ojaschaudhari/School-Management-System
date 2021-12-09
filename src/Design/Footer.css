@@ -1,0 +1,42 @@
+.footer {
+    background: rgb(55,72,89);
+    background: linear-gradient(175deg, rgba(55,72,89,1) 29%, rgba(0,0,0,1) 100%); 
+    position:static;
+    width: 100%;
+    bottom: 0;
+    color: #c60021;
+    font-size: 25px;
+    margin-top: 25px;
+    padding: 25px;
+    margin: 0;
+    font-family: 'Alegreya', serif;
+}
+
+.div-1 {
+    height: 4px;
+    background-color: #000;
+    margin: 10px 0px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.span-1 img {
+    margin-right: 10px;
+    width: 1.5em;
+}
+
+.span-2 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #9f8370;
+}
+
+.span-2:hover {
+    color: #000;
+}
+
+.f-h3{
+    color: #aab0b3;
+}

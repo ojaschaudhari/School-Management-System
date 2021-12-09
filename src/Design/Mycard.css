@@ -1,0 +1,73 @@
+.mycard {
+    position:sticky;
+    background-color: #55382e;
+    height: 40rem;
+    font-family: 'Alegreya', serif;
+    transition: height 1s;
+    position:static;
+}
+
+.mycard:hover{
+    height: 42rem;
+}
+
+.my-list-group {
+    background-color: #261e1e;
+    color: #888c8d;
+    font-size: 1.3rem;
+    display: none;
+}
+
+.mycard:hover .my-list-group{
+    display: block;
+}
+
+.my-card-title{
+    color: #cacccd;
+}
+.my-card-text{
+    color: #adb0b1;
+}
+
+.my-h1 {
+    font-size: 3.8rem;
+    font-weight: light;
+    transition: font-weight 1s ease-in-out;
+    transition :font-size 2s ease-in-out;
+}
+
+.my-col-1 {
+    background-color: #463028;
+    color: #1e1813;
+    animation: anim1 5s infinite ease-in-out;
+}
+
+.my-col-2 {
+    color: #463028;
+    background-color: #1e1813;
+    animation: anim2 5s ease-in-out infinite reverse;
+}
+
+@keyframes anim1 {
+    0% {
+        width: 25%;
+    }
+    50% {
+        width: 50%;
+    }
+    100% {
+        width: 25%;
+    }
+}
+
+@keyframes anim2 {
+    0% {
+        width: 75%;
+    }
+    50% {
+        width: 50%;
+    }
+    100% {
+        width: 75%;
+    }
+}

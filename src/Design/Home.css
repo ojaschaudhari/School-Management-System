@@ -1,0 +1,31 @@
+.std {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 24px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+}
+
+.prin {
+    width: 25rem;
+    border-radius: 50%;
+    padding: 10px 0px;
+}
+.quote{
+    background-color: #20525c;
+    color: #e3e3e3;
+}
+.box {
+    background-color: #7fffd4;
+}
+
+.box-1-col {
+    background-color: #e3e3e3;
+}
+
+.quote,.author {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: #e3e3e3
+}
+
+.author {
+    font-size: 1.8rem;
+}
